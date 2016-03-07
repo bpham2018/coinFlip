@@ -1,10 +1,19 @@
-#Author:BaoPham
-#Date:2/3/16
+# Author: Bao Pham
+
+# Date: 3/7/16
 
 import random
-headstails=random.randint(1,2)
 
-if headstails==(1):
-	print("The coin is Heads")
-if headstails==(2):
-	print("The coin is Tails")
+headsTails = random.randint( 1, 6001 )
+
+if headsTails <= 3000:
+
+	print( "The coin is heads." )
+	
+if 3000 < headsTails <= 6000:
+	
+	print( "The coin is tails." )
+	
+if headsTails = 6001:
+
+	print( "The coin landed on its side!" )
