@@ -14,6 +14,6 @@ if 3000 < headsTails <= 6000:
 	
 	print( "The coin is tails." )
 	
-if headsTails = 6001:
+if headsTails == 6001:
 
 	print( "The coin landed on its side!" )
